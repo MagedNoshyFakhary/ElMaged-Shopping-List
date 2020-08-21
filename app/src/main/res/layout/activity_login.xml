@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/login_tv"
+        android:textSize="36sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg_et_email"
+        android:layout_margin="@dimen/et_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_et_email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/et_padding"
+            android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
+            android:textSize="@dimen/et_text_size" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg_et_email"
+        android:layout_margin="@dimen/et_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
+            android:textSize="@dimen/et_text_size"
+            android:padding="@dimen/et_padding"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_btn_singup" />
+
+    <TextView
+        android:id="@+id/login_tv_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_tv_singup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>

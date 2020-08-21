@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">El Magd Shopping List</string>
+    <string name="reg_tv_singup">SingUp</string>
+    <string name="reg_btn_singup">singup</string>
+    <string name="reg_et_email">please enter your email</string>
+    <string name="login_tv">Login</string>
+    <string name="login_et_email">please enter your email</string>
+    <string name="reg_tv_login">if youalready have an account,click here</string>
+    <string name="login_tv_singup">if you donmt have account, click here</string>
+    <string name="reg_et_password">please enter your password</string>
+
+</resources>

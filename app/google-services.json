@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924969620558",
+    "firebase_url": "https://elmagd-shopping-list.firebaseio.com",
+    "project_id": "elmagd-shopping-list",
+    "storage_bucket": "elmagd-shopping-list.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924969620558:android:166d1218c0231ec3c71f1f",
+        "android_client_info": {
+          "package_name": "com.example.elmagdshoppinglist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924969620558-8i53uku0dgiff5qj502pno20n5dlip34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK7ZXY9073RhT2Mb-vmuD1L0wqLQvv9UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924969620558-8i53uku0dgiff5qj502pno20n5dlip34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
